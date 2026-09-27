@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carbeat Kz — AI Video Studio</title>
+  <meta name="description" content="Carbeat Kz — студия AI видео-клипов и постеров.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header" id="siteHeader">
+    <a class="logo" href="#top"><span class="logo-u">carbeat</span>kz</a>
+    <nav class="site-nav">
+      <a href="#work">Clips</a>
+      <a href="#work">Posters</a>
+      <a href="#about">AI Lab</a>
+      <a href="#order" data-open-order>Order</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== Hero (video placeholder) ===== -->
+    <section class="hero">
+      <!--
+        Когда появится шоурил, замените canvas на:
+        <video class="hero-media" src="assets/hero/showreel.mp4" autoplay muted loop playsinline></video>
+      -->
+      <canvas class="hero-media" id="heroCanvas"></canvas>
+    </section>
+
+    <!-- ===== Intro statement ===== -->
+    <section class="statement statement--left" id="about">
+      <p class="statement-text reveal-words">
+        <span class="line-dark">Create the Beat.</span><br>
+        <span class="line-grey">We’re an AI video studio.</span><br>
+        <span class="line-grey">We craft music videos and visuals</span><br>
+        <span class="line-grey">born from artificial intelligence.</span>
+      </p>
+    </section>
+
+    <!-- ===== Work grid ===== -->
+    <section class="work" id="work">
+      <div class="work-col work-col--left">
+
+        <a class="card fade-in" href="#" data-type="clip">
+          <div class="card-media ratio-43">
+            <video class="card-video" src="https://pub-0ea4382e675146e3bca7b6ba136ef46a.r2.dev/WhatsApp%20Video%202026-09-26%20at%2016.35.15.mp4" muted loop playsinline preload="metadata"></video>
+          </div>
+          <div class="card-caption">
+            <span class="card-brand">Carbeat</span>
+            <span class="card-title">Clip 001 — Neon Steppe</span>
+          </div>
+        </a>
+
+        <a class="card fade-in" href="#" data-type="poster">
+          <div class="card-media ratio-11 ph ph--light">
+            <span class="ph-label">poster&nbsp;placeholder</span>
+          </div>
+          <div class="card-caption card-caption--dark">
+            <span class="card-brand">Carbeat</span>
+            <span class="card-title">Poster 001 — Midnight Drive</span>
+          </div>
+        </a>
+
+        <a class="card fade-in" href="#" data-type="poster">
+          <div class="card-media ratio-45 ph ph--dark">
+            <span class="ph-label">poster&nbsp;placeholder</span>
+          </div>
+          <div class="card-caption">
+            <span class="card-brand">Carbeat</span>
+            <span class="card-title">Poster 002 — Chrome Dreams</span>
+          </div>
+        </a>
+
+        <a class="card fade-in" href="#" data-type="clip">
+          <div class="card-media ratio-169 ph ph--dark">
+            <span class="ph-label">video&nbsp;placeholder</span>
+            <span class="ph-play"></span>
+          </div>
+          <div class="card-caption">
+            <span class="card-brand">Carbeat</span>
+            <span class="card-title">Clip 002 — Almaty Nights</span>
+          </div>
+        </a>
+
+      </div>
+      <div class="work-col work-col--right">
+
+        <a class="card fade-in" href="#" data-type="poster">
+          <div class="card-media ratio-34 ph ph--dark">
+            <span class="ph-label">poster&nbsp;placeholder</span>
+          </div>
+          <div class="card-caption">
+            <span class="card-brand">Carbeat</span>
+            <span class="card-title">Poster 003 — Signal Lost</span>
+          </div>
+        </a>
+
+        <a class="card fade-in" href="#" data-type="clip">
+          <div class="card-media ratio-169 ph ph--dark">
+            <span class="ph-label">video&nbsp;placeholder</span>
+            <span class="ph-play"></span>
+          </div>
+          <div class="card-caption">
+            <span class="card-brand">Carbeat</span>
+            <span class="card-title">Clip 003 — Electric Nomad</span>
+          </div>
+        </a>
+
+        <a class="card fade-in" href="#" data-type="poster">
+          <div class="card-media ratio-45 ph ph--light">
+            <span class="ph-label">poster&nbsp;placeholder</span>
+          </div>
+          <div class="card-caption card-caption--dark">
+            <span class="card-brand">Carbeat</span>
+            <span class="card-title">Poster 004 — Velvet Static</span>
+          </div>
+        </a>
+
+        <a class="card fade-in" href="#" data-type="poster">
+          <div class="card-media ratio-11 ph ph--dark">
+            <span class="ph-label">poster&nbsp;placeholder</span>
+          </div>
+          <div class="card-caption">
+            <span class="card-brand">Carbeat</span>
+            <span class="card-title">Poster 005 — Future Echo</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- ===== Second statement (right aligned) ===== -->
+    <section class="statement statement--right">
+      <p class="statement-text">
+        <span class="line-dark">Sound drives us.</span><br>
+        <span class="line-dark">AI shapes us.</span><br>
+        <span class="line-grey">A collective of artists, engineers,</span><br>
+        <span class="line-grey">dreamers, and machines.</span>
+      </p>
+    </section>
+
+    <!-- ===== Get in touch ===== -->
+    <section class="statement statement--left contact" id="contact">
+      <p class="statement-text">
+        <span class="line-dark">— If you have a new project to discuss –</span><br>
+        <a class="line-grey touch-link" href="#order" data-open-order>Get in touch</a>
+      </p>
+    </section>
+
+    <!-- ===== Order CTA ===== -->
+    <section class="order" id="order">
+      <div class="order-head">
+        <h2 class="order-title">Заказать AI-клип</h2>
+        <p class="order-sub">Для артистов, брендов и бизнеса. 7 коротких вопросов — ответим в течение дня.</p>
+      </div>
+      <button class="order-open" type="button" data-open-order>Оставить заявку</button>
+    </section>
+
+  </main>
+
+  <!-- ===== Order wizard (fullscreen) ===== -->
+  <div class="order-modal" id="orderModal" aria-hidden="true" role="dialog" aria-label="Заказать AI-клип">
+    <div class="modal-top">
+      <span class="modal-brand">carbeat kz — заявка</span>
+      <button class="modal-close" type="button" aria-label="Закрыть">✕</button>
+    </div>
+    <div class="modal-progress"><span class="modal-progress-bar" id="progressBar"></span></div>
+
+    <form class="wizard" id="orderForm" novalidate>
+
+      <!-- step 1: кто вы -->
+      <fieldset class="step" data-step="0">
+        <p class="step-label">01 — О вас</p>
+        <h3 class="step-question">Кто вы?</h3>
+        <div class="choices" data-name="who">
+          <button type="button" class="choice" data-value="Артист / музыкант">Артист / музыкант</button>
+          <button type="button" class="choice" data-value="Бренд / бизнес">Бренд / бизнес</button>
+          <button type="button" class="choice" data-value="Агентство / продакшн">Агентство / продакшн</button>
+          <button type="button" class="choice" data-value="Частное лицо">Частное лицо</button>
+        </div>
+        <input type="hidden" name="who" required>
+      </fieldset>
+
+      <!-- step 2: имя -->
+      <fieldset class="step" data-step="1" hidden>
+        <p class="step-label">02 — О вас</p>
+        <h3 class="step-question">Как вас зовут?</h3>
+        <input class="step-input" name="name" type="text" required autocomplete="name" placeholder="Имя или название компании">
+      </fieldset>
+
+      <!-- step 3: контакты -->
+      <fieldset class="step" data-step="2" hidden>
+        <p class="step-label">03 — Контакты</p>
+        <h3 class="step-question">Как с вами связаться?</h3>
+        <input class="step-input" name="phone" type="tel" required autocomplete="tel" placeholder="Телефон / WhatsApp *">
+        <input class="step-input step-input--secondary" name="telegram" type="text" placeholder="Telegram @username — необязательно">
+      </fieldset>
+
+      <!-- step 4: что нужно -->
+      <fieldset class="step" data-step="3" hidden>
+        <p class="step-label">04 — Проект</p>
+        <h3 class="step-question">Что нужно сделать?</h3>
+        <div class="choices" data-name="type">
+          <button type="button" class="choice" data-value="Музыкальный клип">Музыкальный клип</button>
+          <button type="button" class="choice" data-value="Рекламный ролик">Рекламный ролик</button>
+          <button type="button" class="choice" data-value="Контент для соцсетей">Контент для соцсетей</button>
+          <button type="button" class="choice" data-value="Постеры / обложки">Постеры / обложки</button>
+          <button type="button" class="choice" data-value="Клип + постеры">Клип + постеры</button>
+          <button type="button" class="choice" data-value="Другое">Другое</button>
+        </div>
+        <input type="hidden" name="type" required>
+      </fieldset>
+
+      <!-- step 5: бюджет -->
+      <fieldset class="step" data-step="4" hidden>
+        <p class="step-label">05 — Бюджет</p>
+        <h3 class="step-question">Какой бюджет закладываете?</h3>
+        <div class="choices" data-name="budget">
+          <button type="button" class="choice" data-value="до 300 000 ₸">до 300 000 ₸</button>
+          <button type="button" class="choice" data-value="300 000 – 700 000 ₸">300 000 – 700 000 ₸</button>
+          <button type="button" class="choice" data-value="700 000 – 1 500 000 ₸">700 000 – 1 500 000 ₸</button>
+          <button type="button" class="choice" data-value="1 500 000 ₸ и выше">1 500 000 ₸ и выше</button>
+          <button type="button" class="choice" data-value="Пока не определился">Пока не определился</button>
+        </div>
+        <input type="hidden" name="budget" required>
+      </fieldset>
+
+      <!-- step 6: сроки -->
+      <fieldset class="step" data-step="5" hidden>
+        <p class="step-label">06 — Сроки</p>
+        <h3 class="step-question">Когда нужен результат?</h3>
+        <div class="choices" data-name="deadline">
+          <button type="button" class="choice" data-value="Срочно — до 2 недель">Срочно — до 2 недель</button>
+          <button type="button" class="choice" data-value="2–4 недели">2–4 недели</button>
+          <button type="button" class="choice" data-value="1–2 месяца">1–2 месяца</button>
+          <button type="button" class="choice" data-value="Сроки гибкие">Сроки гибкие</button>
+        </div>
+        <input type="hidden" name="deadline" required>
+      </fieldset>
+
+      <!-- step 7: материалы и идея -->
+      <fieldset class="step" data-step="6" hidden>
+        <p class="step-label">07 — Идея</p>
+        <h3 class="step-question">Расскажите о проекте</h3>
+        <input class="step-input" name="track" type="text" placeholder="Ссылка на трек / сайт / референс — необязательно">
+        <textarea class="step-input step-input--secondary" name="idea" rows="3" placeholder="Настроение, сюжет, примеры, которые нравятся — необязательно"></textarea>
+      </fieldset>
+
+      <!-- honeypot от спама: люди его не видят -->
+      <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <div class="wizard-nav">
+        <button class="wizard-back" type="button" hidden>← Назад</button>
+        <p class="order-status" id="orderStatus" role="status"></p>
+        <span class="wizard-counter" id="wizardCounter">01 / 07</span>
+        <button class="wizard-next order-submit" type="button">Далее →</button>
+      </div>
+    </form>
+
+    <div class="order-done" id="orderDone" hidden>
+      <p class="statement-text">
+        <span class="line-dark">Заявка отправлена.</span><br>
+        <span class="line-grey">Сейчас откроется WhatsApp — продолжим там.</span>
+      </p>
+      <a class="order-open wa-link" id="waLink" href="#" target="_blank" rel="noopener">Продолжить в WhatsApp →</a>
+      <button class="order-done-close wizard-back" type="button">Вернуться на сайт</button>
+    </div>
+  </div>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-office">
+        <h3>Almaty</h3>
+        <p class="office-clock" data-tz="Asia/Almaty">--:--:--</p>
+        <p class="office-addr">Dostyk Ave 91, Almaty, 050051</p>
+        <p class="office-addr"><a href="mailto:hello@carbeat.kz">hello@carbeat.kz</a></p>
+        <p class="office-addr"><a href="tel:+77000000000">+7 (700) 000 00 00</a></p>
+      </div>
+      <div class="footer-office">
+        <h3>Astana</h3>
+        <p class="office-clock" data-tz="Asia/Almaty">--:--:--</p>
+        <p class="office-addr">Mangilik El 55, Astana, 010000</p>
+      </div>
+      <div class="footer-office">
+        <h3>Dubai</h3>
+        <p class="office-clock" data-tz="Asia/Dubai">--:--:--</p>
+        <p class="office-addr">Media City, Dubai, UAE</p>
+      </div>
+      <div class="footer-office">
+        <h3>Los Angeles</h3>
+        <p class="office-clock" data-tz="America/Los_Angeles">--:--:--</p>
+        <p class="office-addr">Culver City, CA 90232</p>
+      </div>
+    </div>
+
+    <div class="footer-social">
+      <a href="#" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a href="#" aria-label="YouTube">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="5.5" width="19" height="13" rx="3.5"/><path d="M10.5 9.5v5l4.5-2.5z" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a href="#" aria-label="TikTok">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M16.6 3c.4 2 1.7 3.4 3.9 3.6v2.6c-1.5 0-2.8-.4-3.9-1.2v5.7a5.5 5.5 0 1 1-5.5-5.5c.3 0 .7 0 1 .1v2.7a2.8 2.8 0 1 0 1.9 2.7V3h2.6z"/></svg>
+      </a>
+    </div>
+    <p class="footer-legal"><a href="#">Legal &amp; Privacy</a></p>
+
+    <div class="footer-bottom">
+      <p>© 2026 Carbeat Kz.<br>Carbeat Kz is an AI-first Company.</p>
+      <p class="footer-credit">Website designed by Carbeat Kz.</p>
+    </div>
+  </footer>
+
+  <!-- ===== Cookie bar ===== -->
+  <div class="cookie-bar" id="cookieBar">
+    <p>We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.</p>
+    <div class="cookie-actions">
+      <button data-action="accept">ACCEPT</button>
+      <button data-action="decline">DECLINE</button>
+      <button data-action="more">READ MORE</button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
